@@ -1,0 +1,24 @@
+{
+  "name": "terraconnect-front",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@homelab-iot/shared": "file:../packages/shared",
+    "@nuxt/eslint": "1.10.0",
+    "@nuxt/ui": "4.1.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "eslint": "^9.0.0",
+    "nuxt": "^4.2.1",
+    "typescript": "^5.6.3",
+    "vite": "^7.2.2",
+    "vue": "^3.5.24",
+    "vue-router": "^4.6.3"
+  }
+}
