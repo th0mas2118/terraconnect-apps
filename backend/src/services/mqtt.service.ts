@@ -1,5 +1,6 @@
 import mqtt, { MqttClient } from 'mqtt';
 import { mqttConfig } from '../config/mqtt.config';
+import { mqttLogger } from '../utils/mqtt.logger';
 
 class MqttService {
   private client: MqttClient | null = null;
@@ -8,7 +9,7 @@ class MqttService {
    * Initialise la connexion au broker MQTT
    */
   public connect(): void {
-    console.log(`🔌 Connexion au broker MQTT: ${mqttConfig.broker}`);
+    mqttLogger.info(`Connection to broker: ${mqttConfig.broker}`);
 
     this.client = mqtt.connect(mqttConfig.broker, {
       ...mqttConfig.options,
@@ -26,7 +27,7 @@ class MqttService {
 
     // Connexion réussie
     this.client.on('connect', () => {
-      console.log('✅ Connecté au broker MQTT');
+      mqttLogger.info('Successfully connected');
       this.subscribe();
     });
 
@@ -37,17 +38,17 @@ class MqttService {
 
     // Erreur de connexion
     this.client.on('error', (error: Error) => {
-      console.error('❌ Erreur MQTT:', error.message);
+      mqttLogger.error('Connection error', error);
     });
 
     // Déconnexion
     this.client.on('close', () => {
-      console.log('🔌 Déconnecté du broker MQTT');
+      mqttLogger.info('Disconnected from broker');
     });
 
     // Reconnexion
     this.client.on('reconnect', () => {
-      console.log('🔄 Tentative de reconnexion au broker MQTT...');
+      mqttLogger.info('Try to reconnect to broker');
     });
   }
 
@@ -61,9 +62,9 @@ class MqttService {
 
     this.client.subscribe(topic, (err) => {
       if (err) {
-        console.error(`❌ Erreur lors de l'abonnement au topic "${topic}":`, err);
+        mqttLogger.error(`Error on subscribe on "${topic}"`, err);
       } else {
-        console.log(`📡 Abonné au topic: ${topic}`);
+        mqttLogger.info(`Subscribed to: ${topic}`);
       }
     });
   }
@@ -75,23 +76,20 @@ class MqttService {
     try {
       const message = payload.toString();
 
-      console.log('📨 Message MQTT reçu:');
-      console.log(`  📍 Topic: ${topic}`);
-      console.log(`  📦 Payload: ${message}`);
-
       // Tentative de parser en JSON si possible
+      let parsedPayload: unknown;
       try {
-        const jsonData = JSON.parse(message);
-        console.log(`  📊 Données JSON:`, jsonData);
+        parsedPayload = JSON.parse(message);
       } catch {
-        // Ce n'est pas du JSON, on log juste le message brut
-        console.log(`  📝 Message brut: ${message}`);
+        // Ce n'est pas du JSON, on garde le message brut
+        parsedPayload = message;
       }
 
-      console.log('---');
+      // Log en une seule ligne avec le topic et le payload
+      mqttLogger.json('Message received', { topic, payload: parsedPayload });
 
     } catch (error) {
-      console.error('❌ Erreur lors du traitement du message:', error);
+      mqttLogger.error('Error with message', error);
     }
   }
 
@@ -100,15 +98,15 @@ class MqttService {
    */
   public publish(topic: string, message: string): void {
     if (!this.client || !this.client.connected) {
-      console.error('❌ Client MQTT non connecté');
+      mqttLogger.error('Client not connected');
       return;
     }
 
     this.client.publish(topic, message, (err) => {
       if (err) {
-        console.error(`❌ Erreur lors de la publication sur "${topic}":`, err);
+        mqttLogger.error(`Publish error on topic "${topic}"`, err);
       } else {
-        console.log(`✅ Message publié sur "${topic}"`);
+        mqttLogger.info(`Message published on topic "${topic}"`);
       }
     });
   }
@@ -119,7 +117,8 @@ class MqttService {
   public disconnect(): void {
     if (this.client) {
       this.client.end();
-      console.log('👋 Client MQTT déconnecté');
+      mqttLogger.info('Disconnected from client');
+      mqttLogger.close();
     }
   }
 }
