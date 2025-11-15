@@ -2,6 +2,7 @@ import express, { Application, Request, Response } from 'express';
 import cors from 'cors';
 import { config } from 'dotenv';
 import { mqttService } from './services/mqtt.service';
+import sensorsRoutes from './routes/sensors.routes';
 
 // Charger les variables d'environnement
 config();
@@ -13,6 +14,9 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// Routes
+app.use('/sensors', sensorsRoutes);
 
 // Route de santé
 app.get('/health', (req: Request, res: Response) => {
@@ -30,6 +34,9 @@ app.get('/', (req: Request, res: Response) => {
     version: '1.0.0',
     endpoints: {
       health: '/health',
+      sensors: {
+        latest: '/sensors/:deviceId/latest',
+      },
     },
   });
 });
