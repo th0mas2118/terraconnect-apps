@@ -1,0 +1,26 @@
+FROM oven/bun:1
+
+WORKDIR /app/backend
+
+# Copier le package shared avec son package.json et tsconfig
+COPY packages/shared/package.json packages/shared/tsconfig.json /app/packages/shared/
+COPY packages/shared/src /app/packages/shared/src
+
+# Copier les fichiers de dépendances du backend
+COPY backend/package.json backend/bun.lockb* ./
+
+# Installer toutes les dépendances (dev incluses)
+RUN bun install
+
+# Copier le code source du backend
+COPY backend/src ./src
+
+# Exposer le port
+EXPOSE 3000
+
+# Variables d'environnement par défaut
+ENV NODE_ENV=development
+ENV PORT=3000
+
+# Démarrer en mode watch
+CMD ["bun", "run", "dev"]

@@ -1,0 +1,41 @@
+services:
+  # Broker MQTT
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: mqtt-broker-local
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    restart: unless-stopped
+    networks:
+      - homelab-iot
+
+  # API Backend
+  backend:
+    build:
+      context: .
+      dockerfile: ./backend/Dockerfile.dev
+    container_name: homelab-iot-backend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend/src:/app/backend/src
+      - ./packages/shared:/app/packages/shared
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - MQTT_BROKER=mqtt://mqtt-broker-local:1883
+      - MQTT_TOPIC=homelab/esp32/#
+    depends_on:
+      - mosquitto
+    restart: unless-stopped
+    networks:
+      - homelab-iot
+
+networks:
+  homelab-iot:
+    driver: bridge

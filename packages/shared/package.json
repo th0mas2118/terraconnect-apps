@@ -1,0 +1,11 @@
+{
+  "name": "@homelab-iot/shared",
+  "version": "1.0.0",
+  "description": "Types et utilitaires partagés pour Homelab IoT",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {},
+  "keywords": ["iot", "shared", "types"],
+  "author": "",
+  "license": "MIT"
+}

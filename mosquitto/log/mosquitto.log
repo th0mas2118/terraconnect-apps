@@ -1,0 +1,569 @@
+1763198450: mosquitto version 2.0.22 starting
+1763198450: Config loaded from /mosquitto/config/mosquitto.conf.
+1763198450: Error: Unable to open pwfile "/mosquitto/config/passwd".
+1763198450: Error opening password file "/mosquitto/config/passwd".
+1763198451: mosquitto version 2.0.22 starting
+1763198451: Config loaded from /mosquitto/config/mosquitto.conf.
+1763198451: Error: Unable to open pwfile "/mosquitto/config/passwd".
+1763198451: Error opening password file "/mosquitto/config/passwd".
+1763198452: mosquitto version 2.0.22 starting
+1763198452: Config loaded from /mosquitto/config/mosquitto.conf.
+1763198452: Error: Unable to open pwfile "/mosquitto/config/passwd".
+1763198452: Error opening password file "/mosquitto/config/passwd".
+1763198452: mosquitto version 2.0.22 starting
+1763198452: Config loaded from /mosquitto/config/mosquitto.conf.
+1763198452: Error: Unable to open pwfile "/mosquitto/config/passwd".
+1763198452: Error opening password file "/mosquitto/config/passwd".
+1763198453: mosquitto version 2.0.22 starting
+1763198453: Config loaded from /mosquitto/config/mosquitto.conf.
+1763198453: Error: Unable to open pwfile "/mosquitto/config/passwd".
+1763198453: Error opening password file "/mosquitto/config/passwd".
+1763198455: mosquitto version 2.0.22 starting
+1763198455: Config loaded from /mosquitto/config/mosquitto.conf.
+1763198455: Error: Unable to open pwfile "/mosquitto/config/passwd".
+1763198455: Error opening password file "/mosquitto/config/passwd".
+1763198458: mosquitto version 2.0.22 starting
+1763198458: Config loaded from /mosquitto/config/mosquitto.conf.
+1763198458: Error: Unable to open pwfile "/mosquitto/config/passwd".
+1763198458: Error opening password file "/mosquitto/config/passwd".
+1763198465: mosquitto version 2.0.22 starting
+1763198465: Config loaded from /mosquitto/config/mosquitto.conf.
+1763198465: Error: Unable to open pwfile "/mosquitto/config/passwd".
+1763198465: Error opening password file "/mosquitto/config/passwd".
+1763198478: mosquitto version 2.0.22 starting
+1763198478: Config loaded from /mosquitto/config/mosquitto.conf.
+1763198478: Error: Unable to open pwfile "/mosquitto/config/passwd".
+1763198478: Error opening password file "/mosquitto/config/passwd".
+1763198504: mosquitto version 2.0.22 starting
+1763198504: Config loaded from /mosquitto/config/mosquitto.conf.
+1763198504: Error: Unable to open pwfile "/mosquitto/config/passwd".
+1763198504: Error opening password file "/mosquitto/config/passwd".
+1763198522: mosquitto version 2.0.22 starting
+1763198522: Config loaded from /mosquitto/config/mosquitto.conf.
+1763198522: Opening ipv4 listen socket on port 1883.
+1763198522: Opening ipv6 listen socket on port 1883.
+1763198522: mosquitto version 2.0.22 running
+1763198523: New connection from 172.24.0.3:60670 on port 1883.
+1763198523: New client connected from 172.24.0.3:60670 as homelab-api-89d1e8 (p2, c1, k60).
+1763198523: No will message specified.
+1763198523: Sending CONNACK to homelab-api-89d1e8 (0, 0)
+1763198523: Received SUBSCRIBE from homelab-api-89d1e8
+1763198523: 	homelab/esp32/# (QoS 0)
+1763198523: homelab-api-89d1e8 0 homelab/esp32/#
+1763198523: Sending SUBACK to homelab-api-89d1e8
+1763198524: New connection from 172.24.0.1:62432 on port 1883.
+1763198524: New client connected from 172.24.0.1:62432 as ESP32-esp32-001 (p2, c1, k15, u'terraconnect').
+1763198524: No will message specified.
+1763198524: Sending CONNACK to ESP32-esp32-001 (0, 0)
+1763198524: Received SUBSCRIBE from ESP32-esp32-001
+1763198524: 	devices/esp32-001/command (QoS 0)
+1763198524: ESP32-esp32-001 0 devices/esp32-001/command
+1763198524: Sending SUBACK to ESP32-esp32-001
+1763198524: Received PUBLISH from ESP32-esp32-001 (d0, q0, r1, m0, 'devices/esp32-001/status', ... (6 bytes))
+1763198528: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198528: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198528: New connection from 172.24.0.1:60682 on port 1883.
+1763198528: New client connected from 172.24.0.1:60682 as mqttx_235b30cd (p5, c1, k60, u'terraconnect').
+1763198528: No will message specified.
+1763198528: Sending CONNACK to mqttx_235b30cd (0, 0)
+1763198528: Received SUBSCRIBE from mqttx_235b30cd
+1763198528: 	# (QoS 0)
+1763198528: mqttx_235b30cd 0 #
+1763198528: Sending SUBACK to mqttx_235b30cd
+1763198528: Sending PUBLISH to mqttx_235b30cd (d0, q0, r1, m0, 'devices/esp32-001/status', ... (6 bytes))
+1763198537: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198537: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198537: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198537: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198539: Received PINGREQ from ESP32-esp32-001
+1763198539: Sending PINGRESP to ESP32-esp32-001
+1763198548: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198548: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198548: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198548: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198554: Received PINGREQ from ESP32-esp32-001
+1763198554: Sending PINGRESP to ESP32-esp32-001
+1763198558: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198558: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198558: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198558: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198568: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198568: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198568: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198568: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198569: Received PINGREQ from ESP32-esp32-001
+1763198569: Sending PINGRESP to ESP32-esp32-001
+1763198578: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198578: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198578: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198578: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198583: Received PINGREQ from homelab-api-89d1e8
+1763198583: Sending PINGRESP to homelab-api-89d1e8
+1763198584: Received PINGREQ from ESP32-esp32-001
+1763198584: Sending PINGRESP to ESP32-esp32-001
+1763198588: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198588: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198588: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198588: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198588: Received PINGREQ from mqttx_235b30cd
+1763198588: Sending PINGRESP to mqttx_235b30cd
+1763198598: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198598: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198598: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198598: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198599: Received PINGREQ from ESP32-esp32-001
+1763198599: Sending PINGRESP to ESP32-esp32-001
+1763198608: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198608: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198608: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198608: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198614: Received PINGREQ from ESP32-esp32-001
+1763198614: Sending PINGRESP to ESP32-esp32-001
+1763198618: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198618: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198618: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198618: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198619: Client homelab-api-89d1e8 closed its connection.
+1763198620: New connection from 172.24.0.3:35384 on port 1883.
+1763198620: New client connected from 172.24.0.3:35384 as homelab-api-7bf3b6 (p2, c1, k60).
+1763198620: No will message specified.
+1763198620: Sending CONNACK to homelab-api-7bf3b6 (0, 0)
+1763198620: Received SUBSCRIBE from homelab-api-7bf3b6
+1763198620: 	homelab/esp32/# (QoS 0)
+1763198620: homelab-api-7bf3b6 0 homelab/esp32/#
+1763198620: Sending SUBACK to homelab-api-7bf3b6
+1763198628: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198628: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198628: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198628: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198629: Received PINGREQ from ESP32-esp32-001
+1763198629: Sending PINGRESP to ESP32-esp32-001
+1763198638: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198638: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198638: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198638: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198644: Received PINGREQ from ESP32-esp32-001
+1763198644: Sending PINGRESP to ESP32-esp32-001
+1763198646: Client homelab-api-7bf3b6 closed its connection.
+1763198647: New connection from 172.24.0.3:41178 on port 1883.
+1763198647: New client connected from 172.24.0.3:41178 as homelab-api-6bfdb3 (p2, c1, k60).
+1763198647: No will message specified.
+1763198647: Sending CONNACK to homelab-api-6bfdb3 (0, 0)
+1763198647: Received SUBSCRIBE from homelab-api-6bfdb3
+1763198647: 	homelab/esp32/# (QoS 0)
+1763198647: homelab-api-6bfdb3 0 homelab/esp32/#
+1763198647: Sending SUBACK to homelab-api-6bfdb3
+1763198648: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198648: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198648: Received PINGREQ from mqttx_235b30cd
+1763198648: Sending PINGRESP to mqttx_235b30cd
+1763198648: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198648: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198658: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198658: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198658: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198658: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198659: Received PINGREQ from ESP32-esp32-001
+1763198659: Sending PINGRESP to ESP32-esp32-001
+1763198668: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198668: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198668: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198668: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198674: Received PINGREQ from ESP32-esp32-001
+1763198674: Sending PINGRESP to ESP32-esp32-001
+1763198678: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198678: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198678: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198678: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198688: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198688: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198688: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198688: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198689: Received PINGREQ from ESP32-esp32-001
+1763198689: Sending PINGRESP to ESP32-esp32-001
+1763198698: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198698: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198698: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198698: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198704: Received PINGREQ from ESP32-esp32-001
+1763198704: Sending PINGRESP to ESP32-esp32-001
+1763198707: Received PINGREQ from homelab-api-6bfdb3
+1763198707: Sending PINGRESP to homelab-api-6bfdb3
+1763198708: Received PINGREQ from mqttx_235b30cd
+1763198708: Sending PINGRESP to mqttx_235b30cd
+1763198708: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198708: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198708: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198708: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198718: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198718: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198718: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198718: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198719: Received PINGREQ from ESP32-esp32-001
+1763198719: Sending PINGRESP to ESP32-esp32-001
+1763198728: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198728: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198729: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198729: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198734: Received PINGREQ from ESP32-esp32-001
+1763198734: Sending PINGRESP to ESP32-esp32-001
+1763198738: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198738: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198738: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198738: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198748: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198748: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198748: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198748: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198749: Received PINGREQ from ESP32-esp32-001
+1763198749: Sending PINGRESP to ESP32-esp32-001
+1763198758: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198758: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198759: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198759: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198765: Received PINGREQ from ESP32-esp32-001
+1763198765: Sending PINGRESP to ESP32-esp32-001
+1763198767: Received PINGREQ from homelab-api-6bfdb3
+1763198767: Sending PINGRESP to homelab-api-6bfdb3
+1763198768: Received PINGREQ from mqttx_235b30cd
+1763198768: Sending PINGRESP to mqttx_235b30cd
+1763198768: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198768: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198769: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198769: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198779: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198779: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198779: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198779: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198780: Received PINGREQ from ESP32-esp32-001
+1763198780: Sending PINGRESP to ESP32-esp32-001
+1763198783: Client homelab-api-6bfdb3 closed its connection.
+1763198785: New connection from 172.24.0.3:45096 on port 1883.
+1763198785: New client connected from 172.24.0.3:45096 as homelab-api-4777bd (p2, c1, k60).
+1763198785: No will message specified.
+1763198785: Sending CONNACK to homelab-api-4777bd (0, 0)
+1763198785: Received SUBSCRIBE from homelab-api-4777bd
+1763198785: 	# (QoS 0)
+1763198785: homelab-api-4777bd 0 #
+1763198785: Sending SUBACK to homelab-api-4777bd
+1763198785: Sending PUBLISH to homelab-api-4777bd (d0, q0, r1, m0, 'devices/esp32-001/status', ... (6 bytes))
+1763198789: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198789: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198789: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198789: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198789: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198789: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198795: Received PINGREQ from ESP32-esp32-001
+1763198795: Sending PINGRESP to ESP32-esp32-001
+1763198798: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198798: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198798: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198799: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198799: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198799: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198809: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198809: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198809: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198809: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198809: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198809: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198810: Received PINGREQ from ESP32-esp32-001
+1763198810: Sending PINGRESP to ESP32-esp32-001
+1763198819: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198819: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198819: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198819: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198819: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198819: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198825: Received PINGREQ from ESP32-esp32-001
+1763198825: Sending PINGRESP to ESP32-esp32-001
+1763198828: Received PINGREQ from mqttx_235b30cd
+1763198828: Sending PINGRESP to mqttx_235b30cd
+1763198829: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198829: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198829: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198829: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198829: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198829: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198839: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198839: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198839: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198839: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198839: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198839: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198840: Received PINGREQ from ESP32-esp32-001
+1763198840: Sending PINGRESP to ESP32-esp32-001
+1763198845: Received PINGREQ from homelab-api-4777bd
+1763198845: Sending PINGRESP to homelab-api-4777bd
+1763198849: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198849: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198849: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198849: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198849: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198849: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198855: Received PINGREQ from ESP32-esp32-001
+1763198855: Sending PINGRESP to ESP32-esp32-001
+1763198859: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198859: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198859: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198859: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198859: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198859: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198869: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198869: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198869: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198869: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198869: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198869: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198870: Received PINGREQ from ESP32-esp32-001
+1763198870: Sending PINGRESP to ESP32-esp32-001
+1763198879: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198879: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198879: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198879: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198879: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198879: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198885: Received PINGREQ from ESP32-esp32-001
+1763198885: Sending PINGRESP to ESP32-esp32-001
+1763198888: Received PINGREQ from mqttx_235b30cd
+1763198888: Sending PINGRESP to mqttx_235b30cd
+1763198889: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198889: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198889: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198889: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198889: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198889: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198899: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198899: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198899: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198899: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198899: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198899: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198900: Received PINGREQ from ESP32-esp32-001
+1763198900: Sending PINGRESP to ESP32-esp32-001
+1763198905: Received PINGREQ from homelab-api-4777bd
+1763198905: Sending PINGRESP to homelab-api-4777bd
+1763198909: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198909: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198909: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198909: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198909: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198909: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198915: Received PINGREQ from ESP32-esp32-001
+1763198915: Sending PINGRESP to ESP32-esp32-001
+1763198919: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198919: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198919: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198919: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198919: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198919: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198929: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198929: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198929: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198929: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198929: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198929: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198930: Received PINGREQ from ESP32-esp32-001
+1763198930: Sending PINGRESP to ESP32-esp32-001
+1763198939: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198939: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198939: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198939: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198939: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198939: Sending PUBLISH to homelab-api-4777bd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198946: Received PINGREQ from ESP32-esp32-001
+1763198946: Sending PINGRESP to ESP32-esp32-001
+1763198946: Client homelab-api-4777bd closed its connection.
+1763198946: New connection from 172.24.0.3:44446 on port 1883.
+1763198946: New client connected from 172.24.0.3:44446 as homelab-api-52ff83 (p2, c1, k60).
+1763198946: No will message specified.
+1763198946: Sending CONNACK to homelab-api-52ff83 (0, 0)
+1763198946: Received SUBSCRIBE from homelab-api-52ff83
+1763198946: 	caca (QoS 0)
+1763198946: homelab-api-52ff83 0 caca
+1763198946: Sending SUBACK to homelab-api-52ff83
+1763198948: Client homelab-api-52ff83 closed its connection.
+1763198948: New connection from 172.24.0.3:44454 on port 1883.
+1763198948: New client connected from 172.24.0.3:44454 as homelab-api-caae95 (p2, c1, k60).
+1763198948: No will message specified.
+1763198948: Sending CONNACK to homelab-api-caae95 (0, 0)
+1763198948: Received PINGREQ from mqttx_235b30cd
+1763198948: Sending PINGRESP to mqttx_235b30cd
+1763198948: Received SUBSCRIBE from homelab-api-caae95
+1763198948: 	# (QoS 0)
+1763198948: homelab-api-caae95 0 #
+1763198948: Sending SUBACK to homelab-api-caae95
+1763198948: Sending PUBLISH to homelab-api-caae95 (d0, q0, r1, m0, 'devices/esp32-001/status', ... (6 bytes))
+1763198949: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198949: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198949: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198949: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198949: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198949: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198959: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198959: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198959: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198959: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198959: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198959: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198961: Received PINGREQ from ESP32-esp32-001
+1763198961: Sending PINGRESP to ESP32-esp32-001
+1763198969: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198969: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198969: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198969: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198969: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198969: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198976: Received PINGREQ from ESP32-esp32-001
+1763198976: Sending PINGRESP to ESP32-esp32-001
+1763198979: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198979: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198979: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198980: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198980: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198980: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198989: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198989: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198989: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198989: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198989: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198989: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763198991: Received PINGREQ from ESP32-esp32-001
+1763198991: Sending PINGRESP to ESP32-esp32-001
+1763198999: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198999: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763198999: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199000: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199000: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199000: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199006: Received PINGREQ from ESP32-esp32-001
+1763199006: Sending PINGRESP to ESP32-esp32-001
+1763199008: Received PINGREQ from mqttx_235b30cd
+1763199008: Sending PINGRESP to mqttx_235b30cd
+1763199008: Received PINGREQ from homelab-api-caae95
+1763199008: Sending PINGRESP to homelab-api-caae95
+1763199009: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199009: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199009: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199010: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199010: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199010: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199019: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199019: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199019: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199020: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199020: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199020: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199021: Received PINGREQ from ESP32-esp32-001
+1763199021: Sending PINGRESP to ESP32-esp32-001
+1763199029: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199029: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199029: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199030: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199030: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199030: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199036: Received PINGREQ from ESP32-esp32-001
+1763199036: Sending PINGRESP to ESP32-esp32-001
+1763199039: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199039: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199039: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199040: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199040: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199040: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199049: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199049: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199049: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199049: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199049: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199049: Sending PUBLISH to homelab-api-caae95 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199051: Received PINGREQ from ESP32-esp32-001
+1763199051: Sending PINGRESP to ESP32-esp32-001
+1763199052: Client homelab-api-caae95 closed its connection.
+1763199059: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199059: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199060: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199060: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199061: New connection from 172.24.0.3:36976 on port 1883.
+1763199061: New client connected from 172.24.0.3:36976 as homelab-api-697c4f (p2, c1, k60).
+1763199061: No will message specified.
+1763199061: Sending CONNACK to homelab-api-697c4f (0, 0)
+1763199061: Received SUBSCRIBE from homelab-api-697c4f
+1763199061: 	homelab/esp32/# (QoS 0)
+1763199061: homelab-api-697c4f 0 homelab/esp32/#
+1763199061: Sending SUBACK to homelab-api-697c4f
+1763199061: Client homelab-api-697c4f closed its connection.
+1763199061: New connection from 172.24.0.3:36982 on port 1883.
+1763199061: New client connected from 172.24.0.3:36982 as homelab-api-939e2b (p2, c1, k60).
+1763199061: No will message specified.
+1763199061: Sending CONNACK to homelab-api-939e2b (0, 0)
+1763199061: Received SUBSCRIBE from homelab-api-939e2b
+1763199061: 	homelab/esp32/# (QoS 0)
+1763199061: homelab-api-939e2b 0 homelab/esp32/#
+1763199061: Sending SUBACK to homelab-api-939e2b
+1763199066: Received PINGREQ from ESP32-esp32-001
+1763199066: Sending PINGRESP to ESP32-esp32-001
+1763199068: Received PINGREQ from mqttx_235b30cd
+1763199068: Sending PINGRESP to mqttx_235b30cd
+1763199070: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199070: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199070: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199070: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199072: Client homelab-api-939e2b closed its connection.
+1763199072: New connection from 172.24.0.3:55860 on port 1883.
+1763199072: New client connected from 172.24.0.3:55860 as homelab-api-21e674 (p2, c1, k60).
+1763199072: No will message specified.
+1763199072: Sending CONNACK to homelab-api-21e674 (0, 0)
+1763199072: Received SUBSCRIBE from homelab-api-21e674
+1763199072: 	homelab/esp32/# (QoS 0)
+1763199072: homelab-api-21e674 0 homelab/esp32/#
+1763199072: Sending SUBACK to homelab-api-21e674
+1763199078: Client homelab-api-21e674 closed its connection.
+1763199078: New connection from 172.24.0.3:49262 on port 1883.
+1763199078: New client connected from 172.24.0.3:49262 as homelab-api-4d4954 (p2, c1, k60).
+1763199078: No will message specified.
+1763199078: Sending CONNACK to homelab-api-4d4954 (0, 0)
+1763199078: Received SUBSCRIBE from homelab-api-4d4954
+1763199078: 	# (QoS 0)
+1763199078: homelab-api-4d4954 0 #
+1763199078: Sending SUBACK to homelab-api-4d4954
+1763199078: Sending PUBLISH to homelab-api-4d4954 (d0, q0, r1, m0, 'devices/esp32-001/status', ... (6 bytes))
+1763199080: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199080: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199080: Sending PUBLISH to homelab-api-4d4954 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199080: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199080: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199080: Sending PUBLISH to homelab-api-4d4954 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199081: Received PINGREQ from ESP32-esp32-001
+1763199081: Sending PINGRESP to ESP32-esp32-001
+1763199090: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199090: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199090: Sending PUBLISH to homelab-api-4d4954 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199090: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199090: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199090: Sending PUBLISH to homelab-api-4d4954 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199096: Client homelab-api-4d4954 closed its connection.
+1763199096: Received PINGREQ from ESP32-esp32-001
+1763199096: Sending PINGRESP to ESP32-esp32-001
+1763199096: New connection from 172.24.0.3:57588 on port 1883.
+1763199096: New client connected from 172.24.0.3:57588 as homelab-api-579ab0 (p2, c1, k60).
+1763199096: No will message specified.
+1763199096: Sending CONNACK to homelab-api-579ab0 (0, 0)
+1763199096: Received SUBSCRIBE from homelab-api-579ab0
+1763199096: 	# (QoS 0)
+1763199096: homelab-api-579ab0 0 #
+1763199096: Sending SUBACK to homelab-api-579ab0
+1763199096: Sending PUBLISH to homelab-api-579ab0 (d0, q0, r1, m0, 'devices/esp32-001/status', ... (6 bytes))
+1763199100: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199100: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199100: Sending PUBLISH to homelab-api-579ab0 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199100: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199100: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199100: Sending PUBLISH to homelab-api-579ab0 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199110: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199110: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199110: Sending PUBLISH to homelab-api-579ab0 (d0, q0, r0, m0, 'sensors/esp32-001/temperature', ... (5 bytes))
+1763199110: Received PUBLISH from ESP32-esp32-001 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199110: Sending PUBLISH to mqttx_235b30cd (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199110: Sending PUBLISH to homelab-api-579ab0 (d0, q0, r0, m0, 'sensors/esp32-001/humidity', ... (5 bytes))
+1763199111: Received PINGREQ from ESP32-esp32-001
+1763199111: Sending PINGRESP to ESP32-esp32-001
